@@ -15,6 +15,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 .amenities {
   display: flex;
@@ -23,6 +24,7 @@
   width: 25%;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 .locations h3.weight1 {
   font-weight: 600;
@@ -50,18 +52,25 @@
   margin-right: auto;
   max-width: 1000px;
   display: flex;
-  justify-content: ;
 }
 .statesdrop {
-  height: 100%;
-  width: 25%;
+  height: ;
+  width: 100%;
   border: 1px solid #dddddd;
   border-radius: 4px;
+  display: none;
+  position: absolute;
+  top: 70px;
+  background-color: #fafafa;
 }
 .ammenitiesdrop {
-  width: 25%;
+  width: 80%;
   border: 1px solid #dddddd;
   border-radius: 4px;
+  display: none;
+  position: absolute;
+  top: 70px;
+  background-color: #fafafa;
 }
 ul {
   list-style: none;
@@ -70,4 +79,10 @@ ul {
 
 .lit {
   padding: 5px;
+}
+.locations:hover .statesdrop {
+  display: block;
+}
+.amenities:hover .ammenitiesdrop {
+  display: block;
 }
