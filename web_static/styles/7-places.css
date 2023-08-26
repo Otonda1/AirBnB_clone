@@ -1,0 +1,44 @@
+.places {
+  position: relative;
+}
+.placesh {
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+.first-layer {
+  display: flex;
+  justify-content: space-between;
+}
+.myhome-article {
+  width: 390;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ff5a5f;
+  margin-left: 200px;
+}
+
+.tiny-article {
+  width: 390;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ff5a5f;
+  margin-right: 200px;
+}
+.articles {
+  position: absolute;
+  top: 40px;
+}
+.second-layer {
+  display: flex;
+  justify-content: center;
+}
+.suite-article {
+  width: 390;
+  padding: 20px;
+
+  border: 1px solid #ff5a5f;
+  margin: 50px;
+}

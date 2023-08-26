@@ -96,6 +96,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  flex-direction: column;
 }
 .btn {
   margin-right: 30px;
